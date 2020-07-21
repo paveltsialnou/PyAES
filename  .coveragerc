@@ -1,0 +1,10 @@
+[report]
+exclude_lines = if __name__ == '__main__':
+fail_under = 100
+show_missing = True
+
+[run]
+branch = True
+command_line = -m unittest discover -s tests/unit/
+data_file = /tmp/.coverage
+source = src/
